@@ -10,7 +10,7 @@ const ArtworkCard = ({ objectID }) => {
     if (!data) return null;
 
     const {
-        primaryImageSmall = 'https://via.placeholder.com/375x375.png?text=[+Not+Available+]',
+        primaryImageSmall = 'https://th.bing.com/th/id/OIP.En3KmlV99-mQsUaxThzPeQAAAA?rs=1&pid=ImgDetMain',
         title = 'N/A',
         objectDate = 'N/A',
         classification = 'N/A',
@@ -19,7 +19,7 @@ const ArtworkCard = ({ objectID }) => {
 
     return (
         <Card>
-            <Card.Img variant="top" src={primaryImageSmall ||'https://via.placeholder.com/375x375.png?text=[+Not+Available+]'}  alt={title} />
+            <Card.Img variant="top" src={primaryImageSmall ||'https://th.bing.com/th/id/OIP.En3KmlV99-mQsUaxThzPeQAAAA?rs=1&pid=ImgDetMain'}  alt={title} />
             <Card.Body>
                 <Card.Title>{title || 'N/A'}</Card.Title>
                 <Card.Text>
